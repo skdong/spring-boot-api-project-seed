@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.RawdataMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.Rawdata">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="date" jdbcType="TIMESTAMP" property="date" />
+    <result column="tempOut" jdbcType="INTEGER" property="tempout" />
+    <result column="hiTemp" jdbcType="INTEGER" property="hitemp" />
+    <result column="lowTemp" jdbcType="INTEGER" property="lowtemp" />
+    <result column="dewpt" jdbcType="INTEGER" property="dewpt" />
+    <result column="wind_speed" jdbcType="INTEGER" property="windSpeed" />
+    <result column="wind_dir" jdbcType="INTEGER" property="windDir" />
+    <result column="wind_run" jdbcType="INTEGER" property="windRun" />
+    <result column="hi_speed" jdbcType="INTEGER" property="hiSpeed" />
+    <result column="hi_dir" jdbcType="INTEGER" property="hiDir" />
+    <result column="wind_chill" jdbcType="INTEGER" property="windChill" />
+    <result column="heat_index" jdbcType="INTEGER" property="heatIndex" />
+    <result column="thw_index" jdbcType="INTEGER" property="thwIndex" />
+    <result column="thsw_index" jdbcType="INTEGER" property="thswIndex" />
+    <result column="bar" jdbcType="INTEGER" property="bar" />
+    <result column="rain" jdbcType="INTEGER" property="rain" />
+    <result column="rain_rate" jdbcType="INTEGER" property="rainRate" />
+    <result column="solar_sad" jdbcType="INTEGER" property="solarSad" />
+    <result column="solar_enery" jdbcType="INTEGER" property="solarEnery" />
+    <result column="hi_solar_rad" jdbcType="INTEGER" property="hiSolarRad" />
+    <result column="uv_index" jdbcType="INTEGER" property="uvIndex" />
+    <result column="uv_does" jdbcType="INTEGER" property="uvDoes" />
+    <result column="hi_uv" jdbcType="INTEGER" property="hiUv" />
+    <result column="heat_dd" jdbcType="INTEGER" property="heatDd" />
+    <result column="cool_dd" jdbcType="INTEGER" property="coolDd" />
+    <result column="in_temp" jdbcType="INTEGER" property="inTemp" />
+    <result column="in_hum" jdbcType="INTEGER" property="inHum" />
+    <result column="in_dew" jdbcType="INTEGER" property="inDew" />
+    <result column="in_heat" jdbcType="INTEGER" property="inHeat" />
+    <result column="in_emc" jdbcType="INTEGER" property="inEmc" />
+    <result column="in_air_density" jdbcType="INTEGER" property="inAirDensity" />
+    <result column="et" jdbcType="INTEGER" property="et" />
+    <result column="wind_samp" jdbcType="INTEGER" property="windSamp" />
+    <result column="wind_tx" jdbcType="INTEGER" property="windTx" />
+    <result column="iss_recept" jdbcType="INTEGER" property="issRecept" />
+    <result column="arc_int" jdbcType="INTEGER" property="arcInt" />
+    <result column="outHum" jdbcType="INTEGER" property="outhum" />
+  </resultMap>
+</mapper>
